@@ -28,3 +28,11 @@ git merge branchName        // merge the branchName branch to your current branc
 // 3.
 // 4. finalVersion
 //=====
+
+git reset --hard origin/branch-name // e.g. main     // to reset everything. Proceed with caution
+
+
+
+// MongoDB
+
+npm i mongoose
