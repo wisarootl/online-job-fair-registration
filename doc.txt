@@ -36,3 +36,12 @@ git reset --hard origin/branch-name // e.g. main     // to reset everything. Pro
 // MongoDB
 
 npm i mongoose
+
+
+// Node.js
+
+npm init
+npm i express dotenv
+npm i -D nodemon
+npm run dev
+npm start
