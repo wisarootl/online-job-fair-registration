@@ -1,0 +1,30 @@
+// Git hub
+https://github.com/jjulanan/OnlineJobFairRegistration.git
+
+git clone https://github.com/jjulanan/OnlineJobFairRegistration.git
+git remote add origin https://github.com/jjulanan/OnlineJobFairRegistration.git
+git branch -M main
+git push -u origin main
+
+git init
+git config --global "kop.julanan@gmail.com"
+git config --global "JJ""
+git add .
+git commit -m "Initial Express Setup"
+git push -u
+git status
+git log
+git log --oneline
+
+git branch                  // show all branchs
+git branch branchName       // create a branch branchName
+git checkout branchName     // move to the branchName branch
+git branch -D branchName    // delete the branchName branch
+git merge branchName        // merge the branchName branch to your current branch
+
+//===== branchName =====//
+// 1. main
+// 2. jj
+// 3.
+// 4. finalVersion
+//=====
