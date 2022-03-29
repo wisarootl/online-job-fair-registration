@@ -1,0 +1,38 @@
+// Newly added
+// 
+// 1. models
+//      1.1 UserSchema: telephone number
+//          >> for registration: /controllers/auth.register
+//      1.2 BookingSchema: ref:'Session'
+//          >> for booking the specific date time
+//
+// 2. controllers
+//      2.1 get single booking: verify ownership
+//          >> for get single booking: users are not allowed to see any other user data, except admin
+// 
+// 3. sql database
+//      3.1 not used
+//          >> we use only MongoDB database
+// 
+// 4. implement functional requirement 3
+//      4.1 spefifying the date
+//          >> for specify booking period: during May 10th - 13th, 2022
+// 
+// 
+// 
+// 
+// 
+วิธีการทำงาน
+
+1. SDLC ที่ใช้คือ reuseable software เพื่อหลีกเลี่ยงการ reinvent the wheel 
+โดยนำ code เดิมมา construct ใหม่แบบบรรทัดต่อบรรทัด และตัวแปรต่อตัวแปร
+
+2. pair programming คนนึงดูแลส่วน plan และ test plan ส่วนอีกคนนึงดูแลส่วน development
+เพื่อให้ process มีความรวดเร็วและแม่นยำ
+
+3. ระยะเวลาที่ใช้
+- get to know each other 1 ชั่วโมง
+- set up environment 1 ชั่วโมง
+- coding 3 ชั่วโมง
+- diagram xxxxxxxxxxx ชั่งโมง
+- presentation planning xxxxxxxx ชั่วโมง
