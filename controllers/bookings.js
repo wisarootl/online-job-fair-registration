@@ -61,7 +61,7 @@ exports.addBooking = async (req,res,next)=>{
 
 
         req.body.bookingDate = req.params.date;
-        const start = "2022-05-13T09:00:00.377+00:00"; //start.setHours(0, 0, 0, 0);
+        const start = "2022-05-10T09:00:00.377+00:00"; //start.setHours(0, 0, 0, 0);
         const end = "2022-05-13T17:00:00.377+00:00";   //end.setHours(23, 59, 59, 999);
         availableInterviewSession = {$gte:start,$lte:end}
 /*

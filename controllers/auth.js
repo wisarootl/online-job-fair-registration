@@ -25,19 +25,25 @@ exports.register = async (req,res,next)=>{
 //@route POST /api/v1/auth/login
 //@access public
 exports.login = async (req,res,next)=>{
-    const{email,password} = req.body;
-    if(!email || !password){        // Verify username,password
-        return res.status(400).json({success:false,msg:'Please provide an email and password'});
+    try{
+        const{email,password} = req.body;
+        if(!email || !password){        // Verify username,password
+            return res.status(400).json({success:false,msg:'Please provide an email and password'});
+        }
+        const user = await User.findOne({email}).select('+password');   //Check for user
+        if(!user){
+            return res.status(400).json({success:false,msg:'Invalid credentials'});
+        }
+        const isMatch = await user.matchPassword(password);     //Check if password matches
+        if(!isMatch){
+            return res.status(401).json({success:false,msg:'Invalid credentials'});
+        }
+        sendTokenResponse(user,200,res);    //Create token
     }
-    const user = await User.findOne({email}).select('+password');   //Check for user
-    if(!user){
-        return res.status(400).json({success:false,msg:'Invalid credentials'});
+    catch(err){
+        res.status(400).json({success:false});
+        console.log(err.stack);
     }
-    const isMatch = await user.matchPassword(password);     //Check if password matches
-    if(!isMatch){
-        return res.status(401).json({success:false,msg:'Invalid credentials'});
-    }
-    sendTokenResponse(user,200,res);    //Create token
 };
 
 //At the end of file
@@ -45,14 +51,26 @@ exports.login = async (req,res,next)=>{
 //@route    POST /api/v1/auth/me
 //@access   Private
 exports.getMe = async (req,res,next)=>{
-    const user = await User.findById(req.user.id);
-    let role=req.user.role;
-    res.status(200).json({success:true,status:role,data:user});
+    try{
+        const user = await User.findById(req.user.id);
+        let role=req.user.role;
+        res.status(200).json({success:true,status:role,data:user});
+    }
+    catch(err){
+        res.status(400).json({success:false});
+        console.log(err.stack);
+    }
 };
 
 exports.logout = async(req, res, next)=>{
-    res.cookie('token','none',{expires: new Date(Date.now()+10*1000),httpOnly: true});
-    res.status(200).json({success:true,data:{}});
+    try{
+        res.cookie('token','none',{expires: new Date(Date.now()+10*1000),httpOnly: true});
+        res.status(200).json({success:true,data:{}});
+    }
+    catch(err){
+        res.status(400).json({success:false});
+        console.log(err.stack);
+    }
 };
 
 //Get token from model, create cookie and send response
