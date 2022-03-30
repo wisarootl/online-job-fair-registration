@@ -70,8 +70,13 @@ exports.getCompany = async (req,res,next)=>{
 //@access   private
 exports.createCompany = async (req,res,next)=>{
     console.log(req.body);
-    const company = await Company.create(req.body);
-    res.status(201).json({success:true,data:company});
+    try{
+        const company = await Company.create(req.body);
+        res.status(201).json({success:true,data:company});
+    }
+    catch(err){
+        res.status(400).json({success:false});
+    } 
 };
 
 //@desc     Update single companies

@@ -6,7 +6,7 @@ const User = require('../models/User');
 //@access public
 exports.register = async (req,res,next)=>{
    try{
-        const {name,email,password,role} = req.body;  //Create user  // แจง .body เป็น 4 ค่า
+        const {name,telephoneNumber,email,password,role} = req.body;  //Create user  // แจง .body เป็น 4 ค่า
         const user = await User.create({
             name,
             telephoneNumber,
@@ -16,7 +16,7 @@ exports.register = async (req,res,next)=>{
         });
         sendTokenResponse(user,200,res);        // Create token
     } catch(err){
-        res.status(400).json({success:false});
+        res.status(400).json({success:false,msg:`test1 ${req.params.date}`});
         console.log(err.stack);
     }
 }
