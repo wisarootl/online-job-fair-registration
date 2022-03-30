@@ -12,7 +12,7 @@ exports.getCompanies = async (req, res, next) => {
     const reqQuery = { ...req.query } // Copy req.query   // ... เพื่อแตก keyvalue จาก string เป็น array
     const removeFields = ['select', 'sort', 'page', 'limit'] // Fields to exclude    //
     removeFields.forEach((param) => delete reqQuery[param]) // Loop over remove fields and delete them from reqQuery
-    console.log(reqQuery)
+
     let queryStr = JSON.stringify(reqQuery) // แปลงกลับมาเป็น String
     queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, (match) => `$${match}`) // create operators ($gt, $$gte, etc)
     // ค้นหาตาม pattern เพื่อแก้  // \b คือ space  // ให้ใส่ $ ข้างหน้า
@@ -32,22 +32,27 @@ exports.getCompanies = async (req, res, next) => {
     } else {
       query = query.sort('-createdAt') // ถ้าไม่ได้ส่ง sort มาก็ให้เรียงตาม createAt ซึ่งคือวันที่สร้างข้อมูลขึ้นมา
     }
+
     // Pagination
     const page = parseInt(req.query.page, 10) || 1
     const limit = parseInt(req.query.limit, 10) || 25
     const startIndex = (page - 1) * limit
     const endIndex = page * limit
-    const total = await Hospital.countDocuments()
+    const total = await Company.countDocuments()
     query = query.skip(startIndex).limit(limit)
 
     // Executing query
-    const hospitals = await query
+    const companies = await query
+
     // Pagination result
     const pagination = {}
-    if (endIndex < total) pagination.next = { page: page + 1, limit }
-    if (startIndex > 0) pagination.prev = { page: page - 1, limit }
-
-    res.status(200).json({ success: true, count: Companies.length, pagination, data: Companies })
+    if (endIndex < total) {
+      pagination.next = { page: page + 1, limit }
+    }
+    if (startIndex > 0) {
+      pagination.prev = { page: page - 1, limit }
+    }
+    res.status(200).json({ success: true, count: companies.length, pagination, data: companies })
   } catch (err) {
     res.status(400).json({ success: false })
   }
