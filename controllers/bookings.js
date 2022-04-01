@@ -89,8 +89,8 @@ exports.addBooking = async (req, res, next) => {
     }
 
     // * check booking date to be within 10 - 13 May 2022 only.
-    const start = '2022-05-10T00:00:00.000+00:00'
-    const end = '2022-05-13T23:59:59.000+00:00'
+    const start = process.env.START_DATE
+    const end = process.env.END_DATE
     if (req.body.apptDate < start || req.body.apptDate > end) {
       return res.status(400).json({
         success: false,
@@ -143,6 +143,7 @@ exports.updateBooking = async (req, res, next) => {
         .status(404)
         .json({ success: false, message: `No booking with the id of ${req.params.id}` })
     }
+
     if (booking.user.toString() !== req.user.id && req.user.role !== 'admin') {
       // Verify ownership
       return res.status(401).json({
@@ -151,10 +152,33 @@ exports.updateBooking = async (req, res, next) => {
         message: `User ${req.user.id} is not authorized to update this booking`
       })
     }
+
+    // * check booking date to be within 10 - 13 May 2022 only.
+    const start = process.env.START_DATE
+    const end = process.env.END_DATE
+    if (req.body.apptDate < start || req.body.apptDate > end) {
+      return res.status(400).json({
+        success: false,
+        message: `The booking must be within 10 - 13 May 2022 only`
+      })
+    }
+
     booking = await Booking.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
       runValidators: true
     })
+
+    // * populate both company and user for bookings
+    booking = await Booking.findById(booking._id.toString())
+      .populate({
+        path: 'company',
+        select: 'name'
+      })
+      .populate({
+        path: 'user',
+        select: 'name'
+      })
+
     res.status(200).json({ success: true, status: role, data: booking })
   } catch (error) {
     console.log(error)

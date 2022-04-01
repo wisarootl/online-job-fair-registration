@@ -28,11 +28,11 @@ Project#3 : Online Job Fair Registration
 
 5.  The system shall allow the registered user to edit his interview session bookings.
 
-    - not debug yet
+    - debugged
 
 6.  The system shall allow the registered user to delete his interview session bookings.
 
-    - not debug yet
+    - debugged
 
 7.  The system shall allow the admin to view any interview session bookings.
 
