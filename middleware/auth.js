@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken') // npm i jsonwebtoken bcryptjs
 const User = require('../models/User')
 
-//Protect routes
+// protect routes
 exports.protect = async (req, res, next) => {
   let token
   if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
@@ -9,12 +9,12 @@ exports.protect = async (req, res, next) => {
   }
 
   if (!token || token == 'null') {
-    //Make sure token exists
+    // make sure token exists
     return res.status(401).json({ success: false, message: 'Not authorize to access this route' })
   }
 
   try {
-    //Verify token
+    // verify token
     const decoded = jwt.verify(token, process.env.JWT_SECRET)
     console.log(decoded)
     req.user = await User.findById(decoded.id)
@@ -26,7 +26,7 @@ exports.protect = async (req, res, next) => {
 }
 
 exports.authorize = (...roles) => {
-  //Grant access to specific roles
+  // grant access to specific roles
   return (req, res, next) => {
     if (!roles.includes(req.user.role)) {
       return res.status(403).json({
