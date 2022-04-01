@@ -43,4 +43,5 @@ Project#3 : Online Job Fair Registration
     - debugged and tested
 
 9.  The system shall allow the admin to delete any interview session bookings.
+
     - debugged and tested
