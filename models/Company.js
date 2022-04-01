@@ -9,29 +9,25 @@ const CompanySchema = new mongoose.Schema(
       trim: true,
       maxlength: [50, 'Name cannot be more than 50 characters']
     },
+
     address: {
       type: String,
       require: [true, 'Please add an address']
     },
-    district: {
+
+    website: {
       type: String,
-      require: [true, 'Please add a district']
+      require: [true, 'Please add a website']
     },
-    province: {
-      type: String,
-      require: [true, 'Please add a province']
-    },
-    postalcode: {
-      type: String,
-      require: [true, 'Please add a postalcode'],
-      maxlength: [5, 'Postal Code cannot be more than 5 digits']
-    },
+
     tel: {
-      type: String
-    },
-    region: {
       type: String,
-      require: [true, 'Please add a region']
+      require: [true, 'Please add a telephone number']
+    },
+
+    description: {
+      type: String,
+      require: [true, 'Please add a description']
     }
   },
   {
@@ -46,6 +42,7 @@ CompanySchema.pre('remove', async function (next) {
   await this.model('Booking').deleteMany({ Company: this._id })
   next()
 })
+
 // Reverse populate with virtuals
 CompanySchema.virtual('bookings', {
   ref: 'Booking',

@@ -44,7 +44,7 @@ exports.login = async (req, res, next) => {
     return res.status(401).json({ success: false, msg: 'Invalid credentials' })
   }
 
-  sendTokenResponse(user, 200, res) //Create token
+  sendTokenResponse(user, 200, res) // create token
 }
 
 //@desc     Get current Logged in user

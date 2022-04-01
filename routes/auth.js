@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router()
 
-// Routes
+// routes
 const { protect } = require('../middleware/auth')
 const { register, login, getMe, logout } = require('../controllers/auth')
 
-// Routes detail
+// routes detail
 router.post('/register', register)
 router.post('/login', login)
 router.get('/me', protect, getMe)

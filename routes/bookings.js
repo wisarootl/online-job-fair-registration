@@ -11,7 +11,7 @@ const {
   deleteBooking
 } = require('../controllers/bookings')
 
-// Routes detail
+// routes detail
 router
   .route('/:id')
   .get(protect, getBooking)
