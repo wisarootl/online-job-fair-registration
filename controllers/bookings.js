@@ -207,10 +207,11 @@ exports.deleteBooking = async (req, res, next) => {
         message: `User ${req.user.id} is not authorized to delete this bootcamp`
       })
     }
+
     await booking.remove()
-    res.status(200).json({ success: true, status: role, data: {} })
+    res.status(200).json({ success: true, data: {} })
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ success: false, message: 'Cannot delete Booking' })
+    return res.status(500).json({ success: false, message: 'Booking cannot be deleted' })
   }
 }

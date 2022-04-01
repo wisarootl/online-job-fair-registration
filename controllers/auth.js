@@ -61,8 +61,11 @@ exports.getMe = async (req, res, next) => {
 //@route    GET /api/v1/auth/logout
 //@access   Private
 exports.logout = async (req, res, next) => {
-  //   log out at client side
-  res.status(200).cookie('token', 'none').json({ success: true, data: {} })
+  const options = {
+    expires: new Date(Date.now() + 10 * 1000), // 10 milliseconds
+    httpOnly: true
+  }
+  res.status(200).cookie('token', 'null', options).json({ success: true, data: {} })
 }
 
 //Get token from model, create cookie and send response
