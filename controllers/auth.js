@@ -28,32 +28,45 @@ exports.register = async (req, res, next) => {
 //@route    POST /api/v1/auth/login
 //@access   Public
 exports.login = async (req, res, next) => {
-  const { email, password } = req.body
-  if (!email || !password) {
-    // Verify username, password
-    return res.status(400).json({ success: false, msg: 'Please provide an email and password' })
-  }
+  try {
+    const { email, password } = req.body
+    if (!email || !password) {
+      // Verify username, password
+      return res.status(400).json({ success: false, msg: 'Please provide an email and password' })
+    }
 
-  const user = await User.findOne({ email }).select('+password') //Check for user
-  if (!user) {
-    return res.status(400).json({ success: false, msg: 'Invalid credentials' })
-  }
+    const user = await User.findOne({ email }).select('+password') //Check for user
+    if (!user) {
+      return res.status(400).json({ success: false, msg: 'Invalid credentials' })
+    }
 
-  const isMatch = await user.matchPassword(password) //Check if password matches
-  if (!isMatch) {
-    return res.status(401).json({ success: false, msg: 'Invalid credentials' })
-  }
+    const isMatch = await user.matchPassword(password) //Check if password matches
+    if (!isMatch) {
+      return res.status(401).json({ success: false, msg: 'Invalid credentials' })
+    }
 
-  sendTokenResponse(user, 200, res) // create token
+    sendTokenResponse(user, 200, res) // create token
+  } catch (err) {
+    // * add return message for error case
+    res.status(400).json({ success: false, msg: err['message'] })
+    console.log(err)
+  }
 }
 
 //@desc     Get current Logged in user
 //@route    POST /api/v1/auth/me
 //@access   Private
 exports.getMe = async (req, res, next) => {
-  const user = await User.findById(req.user.id)
-  let role = req.user.role
-  res.status(200).json({ success: true, status: role, data: user })
+  try{
+    const user = await User.findById(req.user.id)
+    let role = req.user.role
+    res.status(200).json({ success: true, status: role, data: user })
+  }
+  catch (err) {
+    // * add return message for error case
+    res.status(400).json({ success: false, msg: err['message'] })
+    console.log(err)
+  }
 }
 
 // * add log out feature
@@ -61,11 +74,18 @@ exports.getMe = async (req, res, next) => {
 //@route    GET /api/v1/auth/logout
 //@access   Private
 exports.logout = async (req, res, next) => {
-  const options = {
-    expires: new Date(Date.now() + 10 * 1000), // 10 milliseconds
-    httpOnly: true
+  try{
+    const options = {
+      expires: new Date(Date.now() + 10 * 1000), // 10 milliseconds
+      httpOnly: true
+    }
+    res.status(200).cookie('token', 'null', options).json({ success: true, data: {} })
   }
-  res.status(200).cookie('token', 'null', options).json({ success: true, data: {} })
+    catch (err) {
+      // * add return message for error case
+      res.status(400).json({ success: false, msg: err['message'] })
+      console.log(err)
+  }
 }
 
 //Get token from model, create cookie and send response
