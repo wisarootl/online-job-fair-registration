@@ -39,7 +39,6 @@ const CompanySchema = new mongoose.Schema(
 // Cascade delete Bookings when a Company is deleted
 CompanySchema.pre('remove', async function (next) {
   console.log(`Bookings being removed from Company ${this._id}`)
-  console.log('test')
   await this.model('Booking').deleteMany({ company: this._id })
   next()
 })
