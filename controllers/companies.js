@@ -113,6 +113,7 @@ exports.deleteCompany = async (req, res, next) => {
       return res
         .status(404)
         .json({ success: false, message: `Bootcamp not found with id of ${req.params.id}` })
+    console.log(company)
     company.remove()
     res.status(200).json({ success: true, data: {} })
   } catch (err) {
