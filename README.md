@@ -2,14 +2,14 @@
 
 ## Developer
 
-- Julanan Jiwanantaprawat [@jjulanan](){:target="\_blank"}
-- Wisaroot Lertthaweedech [@wisarootl]()
+- Julanan Jiwanantaprawat [@jjulanan](https://github.com/jjulanan/)
+- Wisaroot Lertthaweedech [@wisarootl](https://github.com/wisarootl)
 
 ## Brief Decription
 
 Demo backend project for online job fair booking
 
-## Contents
+## Table of Contents
 
 - Problem Statement
   - Scope
@@ -55,6 +55,7 @@ Demo backend project for online job fair booking
 ### ER Diagram
 
 ![er diagram](./doc_asset/diagrams/er_diagram.svg)
+
 [full size image](./doc_asset/diagrams/er_diagram.svg)
 
 ### Class Diagram
@@ -97,6 +98,22 @@ Demo backend project for online job fair booking
 ## Demo: Functional Requirements Verification
 
 ### Testing as User
+
+1. Register
+
+![register](./doc_asset/function_test/registered_user/01_register.png)
+
+2. Login
+
+![login](./doc_asset/function_test/registered_user/02_login.png)
+
+3. Login
+
+![login](./doc_asset/function_test/registered_user/03_get_me_after_login.png)
+
+4. Login
+
+![login](./doc_asset/function_test/registered_user/04_logout.png)
 
 #### Auth
 
