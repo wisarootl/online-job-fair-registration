@@ -1,13 +1,13 @@
-# OnlineJobFairRegistration
+# Online Job Fair Registration
 
-## Developer
+## Developers
 
 - Julanan Jiwanantaprawat [@jjulanan](https://github.com/jjulanan/)
 - Wisaroot Lertthaweedech [@wisarootl](https://github.com/wisarootl)
 
 ## Brief Decription
 
-Demo backend project for online job fair booking
+Demo backend project for online job fair booking. This project is an assignment of Software Development Practice Class (2110503) at department of Computer Engineering, Chulalongkorn University.
 
 ## Table of Contents
 
