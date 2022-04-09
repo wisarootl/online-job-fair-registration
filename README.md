@@ -33,18 +33,18 @@ Demo backend project for online job fair booking
 
 ### Functional Requirements
 
-| Description                                                                                                                                                                                                                                                                                                                         |      Completed      |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------: |
-| 1. The system shall allow a user to register by specifying the name, telephone number, email, and password.                                                                                                                                                                                                                         | [✅](#test-user-01) |
-| 2. After registration, the user becomes a registered user, and the system shall allow the user to log in to use the system by specifying the email and password. The system shall allow a registered user to log out.                                                                                                               |         ✅          |
-| 3. After login, the system shall allow the registered user to book up to 3 interview sessions by specifying the date (during May 10th-13th, 2022) and the preferred companies. The company list is also provided to the user. A company information includes the company name, address, website, description, and telephone number. |         ✅          |
-| 4. The system shall allow the registered user to view his interview session bookings.                                                                                                                                                                                                                                               |                     |
-| 5. The system shall allow the registered user to edit his interview session bookings.                                                                                                                                                                                                                                               |                     |
-| 6. The system shall allow the registered user to delete his interview session bookings.                                                                                                                                                                                                                                             |                     |
-| 7. The system shall allow the admin to view any interview session bookings.                                                                                                                                                                                                                                                         |                     |
-| 8. The system shall allow the admin to edit any interview session bookings.                                                                                                                                                                                                                                                         |                     |
-| 9. The system shall allow the admin to delete any interview session bookings.                                                                                                                                                                                                                                                       |                     |
-| 10. The system shall allow the admin to create/update/delete company. (addition from requirement in assignment)                                                                                                                                                                                                                     |                     |
+| Description                                                                                                                                                                                                                                                                                                                         |                Completed                |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------: |
+| 1. The system shall allow a user to register by specifying the name, telephone number, email, and password.                                                                                                                                                                                                                         |           [✅](#test-user-01)           |
+| 2. After registration, the user becomes a registered user, and the system shall allow the user to log in to use the system by specifying the email and password. The system shall allow a registered user to log out.                                                                                                               | [✅](#test-user-02) [✅](#test-user-04) |
+| 3. After login, the system shall allow the registered user to book up to 3 interview sessions by specifying the date (during May 10th-13th, 2022) and the preferred companies. The company list is also provided to the user. A company information includes the company name, address, website, description, and telephone number. |                                         |
+| 4. The system shall allow the registered user to view his interview session bookings.                                                                                                                                                                                                                                               |                                         |
+| 5. The system shall allow the registered user to edit his interview session bookings.                                                                                                                                                                                                                                               |                                         |
+| 6. The system shall allow the registered user to delete his interview session bookings.                                                                                                                                                                                                                                             |                                         |
+| 7. The system shall allow the admin to view any interview session bookings.                                                                                                                                                                                                                                                         |                                         |
+| 8. The system shall allow the admin to edit any interview session bookings.                                                                                                                                                                                                                                                         |                                         |
+| 9. The system shall allow the admin to delete any interview session bookings.                                                                                                                                                                                                                                                       |                                         |
+| 10. The system shall allow the admin to create/update/delete company. (addition from requirement in assignment)                                                                                                                                                                                                                     |                                         |
 
 ### Non-Functional Requirements
 
@@ -99,19 +99,22 @@ Demo backend project for online job fair booking
 
 ### Testing as User
 
-1. Register<a name="test-user-01"></a>
+1. <a name="test-user-01"></a>Register
+   - [Satisfied requirement #1](#functional-requirements)
 
 ![register](./doc_asset/function_test/registered_user/01_register.png)
 
-2. Login
+2. <a name="test-user-02"></a>Login
+   - [Satisfied requirement #2](#functional-requirements)
 
 ![login](./doc_asset/function_test/registered_user/02_login.png)
 
-3. Get Me : after login
+3. <a name="test-user-03"></a>Get Me : after login
 
 ![login](./doc_asset/function_test/registered_user/03_get_me_after_login.png)
 
-4. Logout
+4. <a name="test-user-04"></a>Logout
+   - [Satisfied requirement #2](#functional-requirements)
 
 ![login](./doc_asset/function_test/registered_user/04_logout.png)
 
