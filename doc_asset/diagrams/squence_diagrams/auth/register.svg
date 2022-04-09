@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="901px" preserveAspectRatio="none" style="width:869px;height:901px;background:#FFFFFF;" version="1.1" viewBox="0 0 869 901" width="869px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ebfk412d36pc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1ebfk412d36pc)" height="884.625" style="stroke:#000000;stroke-width:1.0;" width="848" x="9" y="5"/><path d="M79,5 L79,15.6094 L69,25.6094 L9,25.6094 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="12" y="20.5332">Register</text><rect fill="#D3D3D3" height="839" style="stroke:#000000;stroke-width:1.0;" width="695.5" x="155.5" y="33.6094"/><text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="273" x="364.75" y="50.2188">Online Job Fair Registration System</text><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="627.5313" style="stroke:#000000;stroke-width:1.0;" width="10" x="61.5" y="216.0781"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.0;" width="10" x="200.5" y="216.0781"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="327.5" y="267.8125"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="527.9297" style="stroke:#000000;stroke-width:1.0;" width="10" x="452.5" y="300.6797"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="98.6016" style="stroke:#000000;stroke-width:1.0;" width="10" x="622.5" y="427.8828"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="78.7344" style="stroke:#000000;stroke-width:1.0;" width="10" x="622.5" y="717.0078"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="779.5" y="460.75"/><rect fill="#F5F5DC" filter="url(#f1ebfk412d36pc)" height="295.125" style="stroke:#000000;stroke-width:2.0;" width="769.5" x="15" y="541.4844"/><rect fill="#ADD8E6" height="243.9063" style="stroke:none;stroke-width:1.0;" width="769.5" x="15" y="592.7031"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="66" x2="66" y1="137.3438" y2="878.6094"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="205.5" x2="205.5" y1="137.3438" y2="878.6094"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="332.5" x2="332.5" y1="137.3438" y2="878.6094"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="457.5" x2="457.5" y1="137.3438" y2="878.6094"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="627" x2="627" y1="137.3438" y2="878.6094"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="784" x2="784" y1="137.3438" y2="878.6094"/><ellipse cx="36" cy="110.6094" fill="#ADD1B2" rx="11" ry="11" style="stroke:none;stroke-width:1.0;"/><path d="M38.1875,112.375 L34.0469,112.375 L33.625,113.4063 L34.0469,113.4063 Q34.6563,113.4063 34.9219,113.6406 Q35.1875,113.875 35.1875,114.2656 Q35.1875,114.6406 34.9219,114.875 Q34.6563,115.1094 34.0469,115.1094 L31.75,115.1094 Q31.1406,115.1094 30.8828,114.875 Q30.625,114.6406 30.625,114.25 Q30.625,113.875 30.8984,113.6328 Q31.1719,113.3906 31.7969,113.4063 L34.4688,106.75 L33.3594,106.75 Q32.75,106.75 32.4844,106.5156 Q32.2188,106.2813 32.2188,105.8906 Q32.2188,105.5156 32.4844,105.2813 Q32.75,105.0469 33.3594,105.0469 L37.0313,105.0469 L40.4219,113.4063 Q41.0156,113.4063 41.2031,113.5469 Q41.5938,113.8125 41.5938,114.2656 Q41.5938,114.6406 41.3359,114.875 Q41.0781,115.1094 40.4688,115.1094 L38.1719,115.1094 Q37.5625,115.1094 37.2969,114.875 Q37.0313,114.6406 37.0313,114.25 Q37.0313,113.875 37.2969,113.6406 Q37.5625,113.4063 38.1719,113.4063 L38.5938,113.4063 L38.1875,112.375 Z M37.4688,110.6719 L36.1094,107.2969 L34.7344,110.6719 L37.4688,110.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="49" x="53" y="114.1426">«client»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="36" x="59.5" y="133.8281">User</text><ellipse cx="66.5" cy="42.6094" fill="#FFFFFF" filter="url(#f1ebfk412d36pc)" rx="8" ry="8" style="stroke:#000000;stroke-width:2.0;"/><path d="M66.5,50.6094 L66.5,77.6094 M53.5,58.6094 L79.5,58.6094 M66.5,77.6094 L53.5,92.6094 M66.5,77.6094 L79.5,92.6094 " fill="none" filter="url(#f1ebfk412d36pc)" style="stroke:#000000;stroke-width:2.0;"/><rect fill="#FFA500" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="88" x="159.5" y="80.6094"/><ellipse cx="177.5" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M175.125,101.9063 L175.125,95.25 L174.8594,95.25 Q174.25,95.25 173.9844,95.0156 Q173.7188,94.7813 173.7188,94.3906 Q173.7188,94.0156 173.9844,93.7813 Q174.25,93.5469 174.8594,93.5469 L179.125,93.5469 Q180.6563,93.5469 181.5859,94.3906 Q182.5156,95.2344 182.5156,96.4063 Q182.5156,96.9688 182.2969,97.4609 Q182.0781,97.9531 181.6406,98.3594 Q182.4531,98.8438 182.8516,99.4844 Q183.25,100.125 183.25,100.9375 Q183.25,101.5938 182.9688,102.1406 Q182.75,102.5781 182.4375,102.8281 Q182.0156,103.1719 181.3984,103.3906 Q180.7813,103.6094 179.8594,103.6094 L174.8594,103.6094 Q174.25,103.6094 173.9844,103.375 Q173.7188,103.1406 173.7188,102.75 Q173.7188,102.375 173.9844,102.1406 Q174.25,101.9063 174.8594,101.9063 L175.125,101.9063 Z M176.8281,97.7188 L178.7031,97.7188 Q179.7031,97.7188 180.3594,97.2188 Q180.8125,96.875 180.8125,96.375 Q180.8125,95.9219 180.3906,95.5859 Q179.9688,95.25 179.0469,95.25 L176.8281,95.25 L176.8281,97.7188 Z M176.8281,101.9063 L179.7656,101.9063 Q180.8125,101.9063 181.2344,101.5938 Q181.5469,101.375 181.5469,100.9375 Q181.5469,100.4219 180.9141,99.9219 Q180.2813,99.4219 179.0781,99.4219 L176.8281,99.4219 L176.8281,101.9063 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="46" x="194.5" y="102.1426">«main»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="43" x="196" y="121.8281">server</text><rect fill="#FFD700" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="98" x="281.5" y="80.6094"/><ellipse cx="299.5" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M302.2656,94.4844 Q302.4219,94.2656 302.6094,94.1563 Q302.7969,94.0469 303.0156,94.0469 Q303.3906,94.0469 303.625,94.3047 Q303.8594,94.5625 303.8594,95.1719 L303.8594,96.625 Q303.8594,97.2344 303.625,97.5 Q303.3906,97.7656 303.0156,97.7656 Q302.6719,97.7656 302.4688,97.5625 Q302.2656,97.375 302.1563,96.8594 Q302.1094,96.5 301.9219,96.3125 Q301.5938,95.9375 300.9844,95.7188 Q300.375,95.5 299.75,95.5 Q298.9844,95.5 298.3516,95.8281 Q297.7188,96.1563 297.2266,96.9063 Q296.7344,97.6563 296.7344,98.6875 L296.7344,99.7813 Q296.7344,101.0156 297.625,101.8359 Q298.5156,102.6563 300.1094,102.6563 Q301.0469,102.6563 301.7031,102.4063 Q302.0938,102.25 302.5156,101.8125 Q302.7813,101.5469 302.9297,101.4688 Q303.0781,101.3906 303.2813,101.3906 Q303.6094,101.3906 303.8672,101.6484 Q304.125,101.9063 304.125,102.25 Q304.125,102.5938 303.7813,103 Q303.2813,103.5781 302.4844,103.9063 Q301.4063,104.3594 300.1094,104.3594 Q298.5938,104.3594 297.3906,103.7344 Q296.4063,103.2344 295.7188,102.1641 Q295.0313,101.0938 295.0313,99.8125 L295.0313,98.6563 Q295.0313,97.3281 295.6484,96.1797 Q296.2656,95.0313 297.3594,94.4141 Q298.4531,93.7969 299.6875,93.7969 Q300.4219,93.7969 301.0703,93.9609 Q301.7188,94.125 302.2656,94.4844 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="56" x="316.5" y="102.1426">«routes»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="29" x="330" y="121.8281">auth</text><rect fill="#90EE90" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="124" x="393.5" y="80.6094"/><ellipse cx="411.5" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M409.0469,101.9063 L409.0469,95.25 Q408.5,95.2344 408.2422,95 Q407.9844,94.7656 407.9844,94.3906 Q407.9844,94.0156 408.25,93.7813 Q408.5156,93.5469 409.125,93.5469 L412.6875,93.5469 Q413.5156,93.5469 414.3125,93.8516 Q415.1094,94.1563 415.5938,94.6406 Q415.9531,95 416.3438,95.6172 Q416.7344,96.2344 416.9375,96.8516 Q417.1406,97.4688 417.1406,98.3594 L417.1406,99.1719 Q417.1406,100.25 416.7734,101.0859 Q416.4063,101.9219 415.8125,102.4453 Q415.2188,102.9688 414.7031,103.2188 Q413.875,103.6094 412.5469,103.6094 L409.125,103.6094 Q408.5156,103.6094 408.25,103.375 Q407.9844,103.1406 407.9844,102.75 Q407.9844,102.375 408.25,102.1406 Q408.5156,101.9063 409.0469,101.9063 Z M410.75,101.9063 L412.5625,101.9063 Q413.5625,101.9063 414.0781,101.6094 Q414.75,101.2344 415.0938,100.6484 Q415.4375,100.0625 415.4375,99.125 L415.4375,98.3125 Q415.4375,97.5156 415.125,96.9063 Q414.6406,95.9531 414.0391,95.6016 Q413.4375,95.25 412.5469,95.25 L410.75,95.25 L410.75,101.9063 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="82" x="428.5" y="102.1426">«controllers»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="34" x="452.5" y="121.8281">auth</text><rect fill="#ADD8E6" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="103" x="574" y="80.6094"/><ellipse cx="592" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M594.4688,99.4375 L590.8281,99.4375 L590.8281,101.9063 L591.0938,101.9063 Q591.7031,101.9063 591.9688,102.1406 Q592.2344,102.375 592.2344,102.7656 Q592.2344,103.1406 591.9688,103.375 Q591.7031,103.6094 591.0938,103.6094 L589.0156,103.6094 Q588.3906,103.6094 588.1328,103.375 Q587.875,103.1406 587.875,102.75 Q587.875,102.2969 588.2813,102.0313 Q588.4844,101.9063 589.125,101.9063 L589.125,95.25 Q588.6719,95.2031 588.4453,94.9766 Q588.2188,94.75 588.2188,94.3906 Q588.2188,94.0156 588.4844,93.7813 Q588.75,93.5469 589.3594,93.5469 L591.0938,93.5469 Q591.7031,93.5469 591.9688,93.7813 Q592.2344,94.0156 592.2344,94.3906 Q592.2344,94.7813 591.9688,95.0156 Q591.7031,95.25 591.0938,95.25 L590.8281,95.25 L590.8281,97.7344 L594.4688,97.7344 L594.4688,95.25 L594.2031,95.25 Q593.5781,95.25 593.3203,95.0156 Q593.0625,94.7813 593.0625,94.3906 Q593.0625,94.0156 593.3203,93.7813 Q593.5781,93.5469 594.2031,93.5469 L595.9375,93.5469 Q596.5469,93.5469 596.8125,93.7813 Q597.0781,94.0156 597.0781,94.3906 Q597.0781,94.75 596.8438,94.9766 Q596.6094,95.2031 596.1719,95.25 L596.1719,101.9063 Q596.8281,101.9063 597.0156,102.0313 Q597.4219,102.2969 597.4219,102.7656 Q597.4219,103.1406 597.1563,103.375 Q596.8906,103.6094 596.2813,103.6094 L594.2031,103.6094 Q593.5781,103.6094 593.3203,103.375 Q593.0625,103.1406 593.0625,102.75 Q593.0625,102.375 593.3281,102.1406 Q593.5938,101.9063 594.2031,101.9063 L594.4688,101.9063 L594.4688,99.4375 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="61" x="609" y="102.1426">«models»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="42" x="618.5" y="121.8281">:User</text><rect fill="#D9D2E9" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="121" x="722" y="80.6094"/><ellipse cx="740" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M740.9531,95.25 L740.9531,101.9063 L742.6719,101.9063 Q743.2813,101.9063 743.5469,102.1406 Q743.8125,102.375 743.8125,102.7656 Q743.8125,103.1406 743.5469,103.375 Q743.2813,103.6094 742.6719,103.6094 L737.5313,103.6094 Q736.9219,103.6094 736.6563,103.375 Q736.3906,103.1406 736.3906,102.75 Q736.3906,102.375 736.6563,102.1406 Q736.9219,101.9063 737.5313,101.9063 L739.25,101.9063 L739.25,95.25 L737.5313,95.25 Q736.9219,95.25 736.6563,95.0156 Q736.3906,94.7813 736.3906,94.3906 Q736.3906,94.0156 736.6563,93.7813 Q736.9219,93.5469 737.5313,93.5469 L742.6719,93.5469 Q743.2813,93.5469 743.5469,93.7813 Q743.8125,94.0156 743.8125,94.3906 Q743.8125,94.7813 743.5469,95.0156 Q743.2813,95.25 742.6719,95.25 L740.9531,95.25 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="757" y="102.1426">«data base»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="71" x="761" y="121.8281">MongoDB</text><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="627.5313" style="stroke:#000000;stroke-width:1.0;" width="10" x="61.5" y="216.0781"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="51.7344" style="stroke:#000000;stroke-width:1.0;" width="10" x="200.5" y="216.0781"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="327.5" y="267.8125"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="527.9297" style="stroke:#000000;stroke-width:1.0;" width="10" x="452.5" y="300.6797"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="98.6016" style="stroke:#000000;stroke-width:1.0;" width="10" x="622.5" y="427.8828"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="78.7344" style="stroke:#000000;stroke-width:1.0;" width="10" x="622.5" y="717.0078"/><rect fill="#FFFF99" filter="url(#f1ebfk412d36pc)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="779.5" y="460.75"/><polygon fill="#A80036" points="188.5,212.0781,198.5,216.0781,188.5,220.0781,192.5,216.0781" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="71.5" x2="194.5" y1="216.0781" y2="216.0781"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="78.5" y="201.3486">[1]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="61" x="100.5" y="191.915">req.post('</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="93" x="100.5" y="210.7822">/auth/register')</text><polygon fill="#A80036" points="315.5,263.8125,325.5,267.8125,315.5,271.8125,319.5,267.8125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="205.5" x2="321.5" y1="267.8125" y2="267.8125"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="212.5" y="253.083">[2]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="60" x="234.5" y="243.6494">app.use('</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="76" x="234.5" y="262.5166">/auth', auth)</text><polygon fill="#A80036" points="440.5,296.6797,450.5,300.6797,440.5,304.6797,444.5,300.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="332.5" x2="446.5" y1="300.6797" y2="300.6797"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="339.5" y="295.3838">[3]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="49" x="361.5" y="295.3838">register</text><polygon fill="#A80036" points="610.5,423.8828,620.5,427.8828,610.5,431.8828,614.5,427.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="462.5" x2="616.5" y1="427.8828" y2="427.8828"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="469.5" y="375.4189">[4]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="46" x="491.5" y="328.251">create(</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="41" x="491.5" y="347.1182">name,</text><text fill="#FF0000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="115" x="491.5" y="365.9854">telephoneNumber</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="4" x="606.5" y="365.9854">,</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="39" x="491.5" y="384.8525">email,</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="68" x="491.5" y="403.7197">password,</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="29" x="491.5" y="422.5869">role)</text><path d="M632,340.7539 L632,399.7539 L770,399.7539 L770,350.7539 L760,340.7539 L632,340.7539 " fill="#FBFB77" filter="url(#f1ebfk412d36pc)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M760,340.7539 L760,350.7539 L770,350.7539 L760,340.7539 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="77" x="638" y="359.249">New feature</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="638" y="375.6006">&lt;- telephoneNumber</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="642" y="391.9521">is required</text><polygon fill="#A80036" points="767.5,456.75,777.5,460.75,767.5,464.75,771.5,460.75" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="632.5" x2="773.5" y1="460.75" y2="460.75"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="639.5" y="455.4541">[5]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="86" x="661.5" y="455.4541">UserSchema</text><polygon fill="#A80036" points="643.5,489.6172,633.5,493.6172,643.5,497.6172,639.5,493.6172" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="637.5" x2="783.5" y1="493.6172" y2="493.6172"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="649.5" y="488.3213">[6]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="29" x="671.5" y="488.3213">user</text><polygon fill="#A80036" points="473.5,522.4844,463.5,526.4844,473.5,530.4844,469.5,526.4844" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="467.5" x2="626.5" y1="526.4844" y2="526.4844"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="479.5" y="521.1885">[7]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="29" x="501.5" y="521.1885">user</text><path d="M15,541.4844 L76,541.4844 L76,549.4844 L66,559.4844 L15,559.4844 L15,541.4844 " fill="#FFD700" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="295.125" style="stroke:#000000;stroke-width:2.0;" width="769.5" x="15" y="541.4844"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="30" y="555.9795">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="26" x="91" y="554.9033">[Fail]</text><polygon fill="#A80036" points="82.5,580.7031,72.5,584.7031,82.5,588.7031,78.5,584.7031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="76.5" x2="451.5" y1="584.7031" y2="584.7031"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="88.5" y="579.4072">[8]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="83" x="110.5" y="579.4072">response fail</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="784.5" y1="593.7031" y2="593.7031"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="55" x="20" y="605.1221">[Success]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="462.5" x2="504.5" y1="652.2734" y2="652.2734"/><line style="stroke:#A80036;stroke-width:1.5;" x1="504.5" x2="504.5" y1="652.2734" y2="665.2734"/><line style="stroke:#A80036;stroke-width:1.5;" x1="463.5" x2="504.5" y1="665.2734" y2="665.2734"/><polygon fill="#A80036" points="473.5,661.2734,463.5,665.2734,473.5,669.2734,469.5,665.2734" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="469.5" y="637.5439">[9]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="72" x="491.5" y="628.1104">sendToken</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="106" x="491.5" y="646.9775">Response(user)</text><polygon fill="#A80036" points="610.5,713.0078,620.5,717.0078,610.5,721.0078,614.5,717.0078" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="462.5" x2="616.5" y1="717.0078" y2="717.0078"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="26" x="469.5" y="702.2783">[10]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="98" x="499.5" y="692.8447">user.getSigned</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="72" x="499.5" y="711.7119">JwtToken()</text><line style="stroke:#A80036;stroke-width:1.5;" x1="632.5" x2="674.5" y1="749.875" y2="749.875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="674.5" x2="674.5" y1="749.875" y2="762.875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="633.5" x2="674.5" y1="762.875" y2="762.875"/><polygon fill="#A80036" points="643.5,758.875,633.5,762.875,643.5,766.875,639.5,762.875" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="26" x="639.5" y="744.5791">[11]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="103" x="669.5" y="744.5791">jwt.sign(user.id)</text><polygon fill="#A80036" points="473.5,791.7422,463.5,795.7422,473.5,799.7422,469.5,795.7422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="467.5" x2="626.5" y1="795.7422" y2="795.7422"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="26" x="479.5" y="790.4463">[12]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="35" x="509.5" y="790.4463">token</text><polygon fill="#A80036" points="82.5,824.6094,72.5,828.6094,82.5,832.6094,78.5,828.6094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="76.5" x2="456.5" y1="828.6094" y2="828.6094"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="26" x="88.5" y="823.3135">[13]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="210" x="118.5" y="823.3135">response success, cookie token</text><!--MD5=[387c9fdc2efd55bf42d85bf0156d9579]
+@startuml
+
+hide footbox
+skinparam sequenceArrowThickness 1.5
+skinparam fontsize 50
+autonumber 1 "<b>[###]"
+skinparam component {
+skinparam defaultFontSize 16
+'FontSize 13
+'BackgroundColor<<Apache>> Red
+'BorderColor<<Apache>> #FF6655
+'FontName Courier
+'BorderColor black
+'BackgroundColor gold
+'ArrowFontName Impact
+ArrowFontSize 15
+'ArrowColor #FF6655
+'ArrowFontColor #777777
+}
+'skinparam backgroundColor #EEEBDC
+Mainframe <b>Register</b>
+
+actor "<b>User" as user <<(A,#ADD1B2)client>>#White
+Box Online Job Fair Registration System #lightgrey
+participant "server" as server <<(B,#FFFFFF)main>>#Orange
+participant "auth" as rauth <<(C,#FFFFFF)routes>>#Gold
+'participant "bookings" as rbookings <<(C,#FFFFFF)routes>>#Gold
+'participant "companies" as rcompanies <<(C,#FFFFFF)routes>>#Gold
+participant "<b>auth" as controllers_auth <<(D,#FFFFFF)controllers>>#LightGreen
+'participant "<b>bookings" as controllers_bookings <<(D,#FFFFFF)controllers>>#LightGreen
+'participant "<b>companies" as controllers_companies <<(F,#FFFFFF)controllers>>#LightGreen
+' participant "auth" as middleware_auth <<(E,#FFFFFF)middleware>>#Pink
+'participant "<b>:Company" as models_Company <<(F,#FFFFFF)models>>#LightBlue
+'participant "<b>:Booking" as models_Booking <<(G,#FFFFFF)models>>#LightBlue
+participant "<b>:User" as models_User <<(H,#FFFFFF)models>>#LightBlue
+participant "MongoDB" as mongo <<(I,#FFFFFF)data base>>#d9d2e9
+end box
+
+|||
+user->server: req.post('\n/auth/register')
+Activate user
+Activate server
+'Route'
+server->rauth: app.use('\n/auth', auth)
+DeActivate server
+Activate rauth
+'Controller bookings'
+rauth->controllers_auth: register
+DeActivate rauth
+Activate controllers_auth
+' controllers_auth->models_User: create(\nname,\n<b><color #Red>telephoneNumber</color>,\nemail,\npassword,\nrole)
+controllers_auth->models_User: create(\nname,\n<color #Red>telephoneNumber</color>,\nemail,\npassword,\nrole)
+note right: <b>New feature\n<- telephoneNumber\n is required
+Activate models_User
+models_User->mongo: UserSchema
+Activate mongo
+mongo->models_User: user
+DeActivate mongo
+models_User->controllers_auth: user
+DeActivate models_User
+Alt#Gold #Beige Fail
+controllers_auth- ->user: response fail
+Else #LightBlue Success
+controllers_auth->controllers_auth: sendToken\nResponse(user)
+controllers_auth->models_User: user.getSigned\nJwtToken()
+Activate models_User
+models_User->models_User: jwt.sign(user.id)
+models_User->controllers_auth: token
+DeActivate models_User
+controllers_auth->user: response success, cookie token
+DeActivate controllers_auth
+DeActivate server
+End Alt
+DeActivate user
+|||
+
+
+skinparam sequence {
+'Box ==============================
+BoxBorderColor Black
+BoxFontColor Blue
+BoxFontSize 16
+'LifeLine + Arrow ==============================
+'ArrowColor DeepSkyBlue
+LifeLineBorderColor Black
+LifeLineBackgroundColor #FFFF99
+'Participant ==============================
+ParticipantBorderColor Black
+'ParticipantBackgroundColor DodgerBlue
+StereoTypeFontSize 14
+ParticipantFontSize 16
+ParticipantFontColor #0c0c0c
+'ParticipantFontName Impact
+'Actor ==============================
+ActorBorderColor Black
+ActorBackgroundColor White
+ActorFontSize 16
+ActorFontColor Black
+'ActorFontName Aapex
+' ===================================
+}
+
+@enduml
+
+@startuml
+
+hide footbox
+skinparam sequenceArrowThickness 1.5
+skinparam fontsize 50
+autonumber 1 "<b>[###]"
+skinparam component {
+skinparam defaultFontSize 16
+ArrowFontSize 15
+}
+Mainframe <b>Register</b>
+
+actor "<b>User" as user <<(A,#ADD1B2)client>>#White
+Box Online Job Fair Registration System #lightgrey
+participant "server" as server <<(B,#FFFFFF)main>>#Orange
+participant "auth" as rauth <<(C,#FFFFFF)routes>>#Gold
+participant "<b>auth" as controllers_auth <<(D,#FFFFFF)controllers>>#LightGreen
+participant "<b>:User" as models_User <<(H,#FFFFFF)models>>#LightBlue
+participant "MongoDB" as mongo <<(I,#FFFFFF)data base>>#d9d2e9
+end box
+
+|||
+user->server: req.post('\n/auth/register')
+Activate user
+Activate server
+server->rauth: app.use('\n/auth', auth)
+DeActivate server
+Activate rauth
+rauth->controllers_auth: register
+DeActivate rauth
+Activate controllers_auth
+controllers_auth->models_User: create(\nname,\n<color #Red>telephoneNumber</color>,\nemail,\npassword,\nrole)
+note right: <b>New feature\n<- telephoneNumber\n is required
+Activate models_User
+models_User->mongo: UserSchema
+Activate mongo
+mongo->models_User: user
+DeActivate mongo
+models_User->controllers_auth: user
+DeActivate models_User
+Alt#Gold #Beige Fail
+controllers_auth- ->user: response fail
+Else #LightBlue Success
+controllers_auth->controllers_auth: sendToken\nResponse(user)
+controllers_auth->models_User: user.getSigned\nJwtToken()
+Activate models_User
+models_User->models_User: jwt.sign(user.id)
+models_User->controllers_auth: token
+DeActivate models_User
+controllers_auth->user: response success, cookie token
+DeActivate controllers_auth
+DeActivate server
+End Alt
+DeActivate user
+|||
+
+
+skinparam sequence {
+BoxBorderColor Black
+BoxFontColor Blue
+BoxFontSize 16
+LifeLineBorderColor Black
+LifeLineBackgroundColor #FFFF99
+ParticipantBorderColor Black
+StereoTypeFontSize 14
+ParticipantFontSize 16
+ParticipantFontColor #0c0c0c
+ActorBorderColor Black
+ActorBackgroundColor White
+ActorFontSize 16
+ActorFontColor Black
+}
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 23:16:42 ICT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

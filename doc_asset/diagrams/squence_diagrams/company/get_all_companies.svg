@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="568px" preserveAspectRatio="none" style="width:844px;height:568px;background:#FFFFFF;" version="1.1" viewBox="0 0 844 568" width="844px" zoomAndPan="magnify"><defs><filter height="300%" id="fcdjwb18n3t28" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fcdjwb18n3t28)" height="551.7656" style="stroke:#000000;stroke-width:1.0;" width="827" x="5" y="5"/><path d="M143,5 L143,15.6094 L133,25.6094 L5,25.6094 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="8" y="20.5332">Get All Companies</text><rect fill="#D3D3D3" height="506.1406" style="stroke:#000000;stroke-width:1.0;" width="706.5" x="119.5" y="33.6094"/><text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="273" x="334.25" y="50.2188">Online Job Fair Registration System</text><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="267.8047" style="stroke:#000000;stroke-width:1.0;" width="10" x="46.5" y="234.9453"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="70.6016" style="stroke:#000000;stroke-width:1.0;" width="10" x="164.5" y="234.9453"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="300.5" y="305.5469"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="164.3359" style="stroke:#000000;stroke-width:1.0;" width="10" x="446.5" y="338.4141"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="98.6016" style="stroke:#000000;stroke-width:1.0;" width="10" x="585.5" y="371.2813"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="754.5" y="404.1484"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="51" x2="51" y1="137.3438" y2="545.75"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="169.5" x2="169.5" y1="137.3438" y2="545.75"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="305" x2="305" y1="137.3438" y2="545.75"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="451.5" x2="451.5" y1="137.3438" y2="545.75"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="590.5" x2="590.5" y1="137.3438" y2="545.75"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="759" x2="759" y1="137.3438" y2="545.75"/><ellipse cx="21" cy="110.6094" fill="#ADD1B2" rx="11" ry="11" style="stroke:none;stroke-width:1.0;"/><path d="M23.1875,112.375 L19.0469,112.375 L18.625,113.4063 L19.0469,113.4063 Q19.6563,113.4063 19.9219,113.6406 Q20.1875,113.875 20.1875,114.2656 Q20.1875,114.6406 19.9219,114.875 Q19.6563,115.1094 19.0469,115.1094 L16.75,115.1094 Q16.1406,115.1094 15.8828,114.875 Q15.625,114.6406 15.625,114.25 Q15.625,113.875 15.8984,113.6328 Q16.1719,113.3906 16.7969,113.4063 L19.4688,106.75 L18.3594,106.75 Q17.75,106.75 17.4844,106.5156 Q17.2188,106.2813 17.2188,105.8906 Q17.2188,105.5156 17.4844,105.2813 Q17.75,105.0469 18.3594,105.0469 L22.0313,105.0469 L25.4219,113.4063 Q26.0156,113.4063 26.2031,113.5469 Q26.5938,113.8125 26.5938,114.2656 Q26.5938,114.6406 26.3359,114.875 Q26.0781,115.1094 25.4688,115.1094 L23.1719,115.1094 Q22.5625,115.1094 22.2969,114.875 Q22.0313,114.6406 22.0313,114.25 Q22.0313,113.875 22.2969,113.6406 Q22.5625,113.4063 23.1719,113.4063 L23.5938,113.4063 L23.1875,112.375 Z M22.4688,110.6719 L21.1094,107.2969 L19.7344,110.6719 L22.4688,110.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="49" x="38" y="114.1426">«client»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="36" x="44.5" y="133.8281">User</text><ellipse cx="51.5" cy="42.6094" fill="#FFFFFF" filter="url(#fcdjwb18n3t28)" rx="8" ry="8" style="stroke:#000000;stroke-width:2.0;"/><path d="M51.5,50.6094 L51.5,77.6094 M38.5,58.6094 L64.5,58.6094 M51.5,77.6094 L38.5,92.6094 M51.5,77.6094 L64.5,92.6094 " fill="none" filter="url(#fcdjwb18n3t28)" style="stroke:#000000;stroke-width:2.0;"/><rect fill="#FFA500" filter="url(#fcdjwb18n3t28)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="88" x="123.5" y="80.6094"/><ellipse cx="141.5" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M139.125,101.9063 L139.125,95.25 L138.8594,95.25 Q138.25,95.25 137.9844,95.0156 Q137.7188,94.7813 137.7188,94.3906 Q137.7188,94.0156 137.9844,93.7813 Q138.25,93.5469 138.8594,93.5469 L143.125,93.5469 Q144.6563,93.5469 145.5859,94.3906 Q146.5156,95.2344 146.5156,96.4063 Q146.5156,96.9688 146.2969,97.4609 Q146.0781,97.9531 145.6406,98.3594 Q146.4531,98.8438 146.8516,99.4844 Q147.25,100.125 147.25,100.9375 Q147.25,101.5938 146.9688,102.1406 Q146.75,102.5781 146.4375,102.8281 Q146.0156,103.1719 145.3984,103.3906 Q144.7813,103.6094 143.8594,103.6094 L138.8594,103.6094 Q138.25,103.6094 137.9844,103.375 Q137.7188,103.1406 137.7188,102.75 Q137.7188,102.375 137.9844,102.1406 Q138.25,101.9063 138.8594,101.9063 L139.125,101.9063 Z M140.8281,97.7188 L142.7031,97.7188 Q143.7031,97.7188 144.3594,97.2188 Q144.8125,96.875 144.8125,96.375 Q144.8125,95.9219 144.3906,95.5859 Q143.9688,95.25 143.0469,95.25 L140.8281,95.25 L140.8281,97.7188 Z M140.8281,101.9063 L143.7656,101.9063 Q144.8125,101.9063 145.2344,101.5938 Q145.5469,101.375 145.5469,100.9375 Q145.5469,100.4219 144.9141,99.9219 Q144.2813,99.4219 143.0781,99.4219 L140.8281,99.4219 L140.8281,101.9063 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="46" x="158.5" y="102.1426">«main»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="43" x="160" y="121.8281">server</text><rect fill="#FFD700" filter="url(#fcdjwb18n3t28)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="119" x="244" y="80.6094"/><ellipse cx="262" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M264.7656,94.4844 Q264.9219,94.2656 265.1094,94.1563 Q265.2969,94.0469 265.5156,94.0469 Q265.8906,94.0469 266.125,94.3047 Q266.3594,94.5625 266.3594,95.1719 L266.3594,96.625 Q266.3594,97.2344 266.125,97.5 Q265.8906,97.7656 265.5156,97.7656 Q265.1719,97.7656 264.9688,97.5625 Q264.7656,97.375 264.6563,96.8594 Q264.6094,96.5 264.4219,96.3125 Q264.0938,95.9375 263.4844,95.7188 Q262.875,95.5 262.25,95.5 Q261.4844,95.5 260.8516,95.8281 Q260.2188,96.1563 259.7266,96.9063 Q259.2344,97.6563 259.2344,98.6875 L259.2344,99.7813 Q259.2344,101.0156 260.125,101.8359 Q261.0156,102.6563 262.6094,102.6563 Q263.5469,102.6563 264.2031,102.4063 Q264.5938,102.25 265.0156,101.8125 Q265.2813,101.5469 265.4297,101.4688 Q265.5781,101.3906 265.7813,101.3906 Q266.1094,101.3906 266.3672,101.6484 Q266.625,101.9063 266.625,102.25 Q266.625,102.5938 266.2813,103 Q265.7813,103.5781 264.9844,103.9063 Q263.9063,104.3594 262.6094,104.3594 Q261.0938,104.3594 259.8906,103.7344 Q258.9063,103.2344 258.2188,102.1641 Q257.5313,101.0938 257.5313,99.8125 L257.5313,98.6563 Q257.5313,97.3281 258.1484,96.1797 Q258.7656,95.0313 259.8594,94.4141 Q260.9531,93.7969 262.1875,93.7969 Q262.9219,93.7969 263.5703,93.9609 Q264.2188,94.125 264.7656,94.4844 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="56" x="289.5" y="102.1426">«routes»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="77" x="279" y="121.8281">companies</text><rect fill="#90EE90" filter="url(#fcdjwb18n3t28)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="126" x="386.5" y="80.6094"/><ellipse cx="404.5" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M403.9375,99.4219 L403.9375,101.9063 L405.6719,101.9063 Q406.2969,101.9063 406.5547,102.1406 Q406.8125,102.375 406.8125,102.7656 Q406.8125,103.1406 406.5547,103.375 Q406.2969,103.6094 405.6719,103.6094 L401.9688,103.6094 Q401.3594,103.6094 401.0938,103.375 Q400.8281,103.1406 400.8281,102.75 Q400.8281,102.375 401.0938,102.1406 Q401.3594,101.9063 401.9688,101.9063 L402.2344,101.9063 L402.2344,95.25 L401.9688,95.25 Q401.3594,95.25 401.0938,95.0156 Q400.8281,94.7813 400.8281,94.3906 Q400.8281,94.0156 401.0938,93.7813 Q401.3594,93.5469 401.9688,93.5469 L409.9844,93.5469 L409.9844,96.1406 Q409.9844,96.75 409.7422,97.0156 Q409.5,97.2813 409.125,97.2813 Q408.75,97.2813 408.5156,97.0234 Q408.2813,96.7656 408.2813,96.1406 L408.2813,95.25 L403.9375,95.25 L403.9375,97.7188 L405.4219,97.7188 Q405.4219,97.0469 405.5469,96.8594 Q405.8125,96.4531 406.2813,96.4531 Q406.6563,96.4531 406.8906,96.7188 Q407.125,96.9844 407.125,97.5938 L407.125,99.5469 Q407.125,100.1719 406.8906,100.4297 Q406.6563,100.6875 406.2813,100.6875 Q405.8125,100.6875 405.5469,100.2813 Q405.4219,100.0938 405.4219,99.4219 L403.9375,99.4219 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="82" x="422.5" y="102.1426">«controllers»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="84" x="421.5" y="121.8281">companies</text><rect fill="#ADD8E6" filter="url(#fcdjwb18n3t28)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="122" x="527.5" y="80.6094"/><ellipse cx="545.5" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M544.9375,99.4219 L544.9375,101.9063 L546.6719,101.9063 Q547.2969,101.9063 547.5547,102.1406 Q547.8125,102.375 547.8125,102.7656 Q547.8125,103.1406 547.5547,103.375 Q547.2969,103.6094 546.6719,103.6094 L542.9688,103.6094 Q542.3594,103.6094 542.0938,103.375 Q541.8281,103.1406 541.8281,102.75 Q541.8281,102.375 542.0938,102.1406 Q542.3594,101.9063 542.9688,101.9063 L543.2344,101.9063 L543.2344,95.25 L542.9688,95.25 Q542.3594,95.25 542.0938,95.0156 Q541.8281,94.7813 541.8281,94.3906 Q541.8281,94.0156 542.0938,93.7813 Q542.3594,93.5469 542.9688,93.5469 L550.9844,93.5469 L550.9844,96.1406 Q550.9844,96.75 550.7422,97.0156 Q550.5,97.2813 550.125,97.2813 Q549.75,97.2813 549.5156,97.0234 Q549.2813,96.7656 549.2813,96.1406 L549.2813,95.25 L544.9375,95.25 L544.9375,97.7188 L546.4219,97.7188 Q546.4219,97.0469 546.5469,96.8594 Q546.8125,96.4531 547.2813,96.4531 Q547.6563,96.4531 547.8906,96.7188 Q548.125,96.9844 548.125,97.5938 L548.125,99.5469 Q548.125,100.1719 547.8906,100.4297 Q547.6563,100.6875 547.2813,100.6875 Q546.8125,100.6875 546.5469,100.2813 Q546.4219,100.0938 546.4219,99.4219 L544.9375,99.4219 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="61" x="572" y="102.1426">«models»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="80" x="562.5" y="121.8281">:Company</text><rect fill="#D9D2E9" filter="url(#fcdjwb18n3t28)" height="51.7344" style="stroke:#000000;stroke-width:1.5;" width="121" x="697" y="80.6094"/><ellipse cx="715" cy="98.6094" fill="#FFFFFF" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M715.9531,95.25 L715.9531,101.9063 L717.6719,101.9063 Q718.2813,101.9063 718.5469,102.1406 Q718.8125,102.375 718.8125,102.7656 Q718.8125,103.1406 718.5469,103.375 Q718.2813,103.6094 717.6719,103.6094 L712.5313,103.6094 Q711.9219,103.6094 711.6563,103.375 Q711.3906,103.1406 711.3906,102.75 Q711.3906,102.375 711.6563,102.1406 Q711.9219,101.9063 712.5313,101.9063 L714.25,101.9063 L714.25,95.25 L712.5313,95.25 Q711.9219,95.25 711.6563,95.0156 Q711.3906,94.7813 711.3906,94.3906 Q711.3906,94.0156 711.6563,93.7813 Q711.9219,93.5469 712.5313,93.5469 L717.6719,93.5469 Q718.2813,93.5469 718.5469,93.7813 Q718.8125,94.0156 718.8125,94.3906 Q718.8125,94.7813 718.5469,95.0156 Q718.2813,95.25 717.6719,95.25 L715.9531,95.25 Z " fill="#0C0C0C"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="732" y="102.1426">«data base»</text><text fill="#0C0C0C" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="71" x="736" y="121.8281">MongoDB</text><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="267.8047" style="stroke:#000000;stroke-width:1.0;" width="10" x="46.5" y="234.9453"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="70.6016" style="stroke:#000000;stroke-width:1.0;" width="10" x="164.5" y="234.9453"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="300.5" y="305.5469"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="164.3359" style="stroke:#000000;stroke-width:1.0;" width="10" x="446.5" y="338.4141"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="98.6016" style="stroke:#000000;stroke-width:1.0;" width="10" x="585.5" y="371.2813"/><rect fill="#FFFF99" filter="url(#fcdjwb18n3t28)" height="32.8672" style="stroke:#000000;stroke-width:1.0;" width="10" x="754.5" y="404.1484"/><polygon fill="#A80036" points="152.5,230.9453,162.5,234.9453,152.5,238.9453,156.5,234.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="56.5" x2="158.5" y1="234.9453" y2="234.9453"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="63.5" y="210.7822">[1]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="57" x="85.5" y="191.915">req.get('/</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="72" x="85.5" y="210.7822">companies</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="71" x="85.5" y="229.6494">?queryStr')</text><polygon fill="#A80036" points="288.5,301.5469,298.5,305.5469,288.5,309.5469,292.5,305.5469" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="169.5" x2="294.5" y1="305.5469" y2="305.5469"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="176.5" y="281.3838">[2]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="60" x="198.5" y="262.5166">app.use('</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="79" x="198.5" y="281.3838">/companies'</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="85" x="198.5" y="300.251">, companies)</text><polygon fill="#A80036" points="434.5,334.4141,444.5,338.4141,434.5,342.4141,438.5,338.4141" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="305.5" x2="440.5" y1="338.4141" y2="338.4141"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="312.5" y="333.1182">[3]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="95" x="334.5" y="333.1182">getCompanies</text><polygon fill="#A80036" points="573.5,367.2813,583.5,371.2813,573.5,375.2813,577.5,371.2813" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="456.5" x2="579.5" y1="371.2813" y2="371.2813"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="463.5" y="365.9854">[4]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="88" x="485.5" y="365.9854">find(queryStr)</text><polygon fill="#A80036" points="742.5,400.1484,752.5,404.1484,742.5,408.1484,746.5,404.1484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="595.5" x2="748.5" y1="404.1484" y2="404.1484"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="602.5" y="398.8525">[5]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="118" x="624.5" y="398.8525">CompanySchema</text><polygon fill="#A80036" points="606.5,433.0156,596.5,437.0156,606.5,441.0156,602.5,437.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="600.5" x2="758.5" y1="437.0156" y2="437.0156"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="612.5" y="431.7197">[6]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="72" x="634.5" y="431.7197">companies</text><polygon fill="#A80036" points="467.5,465.8828,457.5,469.8828,467.5,473.8828,463.5,469.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="461.5" x2="589.5" y1="469.8828" y2="469.8828"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="473.5" y="464.5869">[7]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="72" x="495.5" y="464.5869">companies</text><polygon fill="#A80036" points="62.5,498.75,52.5,502.75,62.5,506.75,58.5,502.75" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="56.5" x2="450.5" y1="502.75" y2="502.75"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="18" x="68.5" y="497.4541">[8]</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="61" x="90.5" y="497.4541">response</text><!--MD5=[3c91458eb82fe4ad51340a0f5a4793d0]
+@startuml
+hide footbox
+skinparam sequenceArrowThickness 1.5
+skinparam fontsize 50
+autonumber 1 "<b>[###]"
+skinparam component {
+skinparam defaultFontSize 16
+'FontSize 13
+'BackgroundColor<<Apache>> Red
+'BorderColor<<Apache>> #FF6655
+'FontName Courier
+'BorderColor black
+'BackgroundColor gold
+'ArrowFontName Impact
+ArrowFontSize 15
+'ArrowColor #FF6655
+'ArrowFontColor #777777
+}
+'skinparam backgroundColor #EEEBDC
+Mainframe <b>Get All Companies</b>
+
+actor "<b>User</b>" as user <<(A,#ADD1B2)client>>#White
+Box Online Job Fair Registration System #lightgrey
+participant "server" as server <<(B,#FFFFFF)main>>#Orange
+'participant "auth" as rauth <<(C,#FFFFFF)routes>>#Gold
+'participant "bookings" as rbookings <<(C,#FFFFFF)routes>>#Gold
+participant "companies" as rcompanies <<(C,#FFFFFF)routes>>#Gold
+'participant "<b>auth" as controllers_auth <<(D,#FFFFFF)controllers>>#LightGreen
+'participant "<b>bookings" as controllers_bookings <<(D,#FFFFFF)controllers>>#LightGreen
+participant "<b>companies" as controllers_companies <<(F,#FFFFFF)controllers>>#LightGreen
+'participant "auth" as middleware_auth <<(E,#FFFFFF)middleware>>#Pink
+participant "<b>:Company" as models_Company <<(F,#FFFFFF)models>>#LightBlue
+'participant "<b>:Booking" as models_Booking <<(G,#FFFFFF)models>>#LightBlue
+'participant "<b>:User" as models_User <<(H,#FFFFFF)models>>#LightBlue
+participant "MongoDB" as mongo <<(I,#FFFFFF)data base>>#d9d2e9
+end box
+
+|||
+user->server: req.get('/\ncompanies\n?queryStr')
+Activate user
+Activate server
+'Route'
+server->rcompanies: app.use('\n/companies'\n, companies)
+DeActivate server
+Activate rcompanies
+'Controller bookings'
+rcompanies->controllers_companies: getCompanies
+DeActivate rcompanies
+Activate controllers_companies
+controllers_companies->models_Company: find(queryStr)
+Activate models_Company
+models_Company->mongo: CompanySchema
+Activate mongo
+mongo->models_Company: companies
+DeActivate mongo
+models_Company->controllers_companies: companies
+DeActivate models_Company
+controllers_companies->user: response
+DeActivate controllers_companies
+DeActivate user
+|||
+
+
+skinparam sequence {
+'Box ==============================
+BoxBorderColor Black
+BoxFontColor Blue
+BoxFontSize 16
+'LifeLine + Arrow ==============================
+'ArrowColor DeepSkyBlue
+LifeLineBorderColor Black
+LifeLineBackgroundColor #FFFF99
+'Participant ==============================
+ParticipantBorderColor Black
+'ParticipantBackgroundColor DodgerBlue
+StereoTypeFontSize 14
+ParticipantFontSize 16
+ParticipantFontColor #0c0c0c
+'ParticipantFontName Impact
+'Actor ==============================
+ActorBorderColor Black
+ActorBackgroundColor White
+ActorFontSize 16
+ActorFontColor Black
+'ActorFontName Aapex
+' ===================================
+}
+@enduml
+
+@startuml
+hide footbox
+skinparam sequenceArrowThickness 1.5
+skinparam fontsize 50
+autonumber 1 "<b>[###]"
+skinparam component {
+skinparam defaultFontSize 16
+ArrowFontSize 15
+}
+Mainframe <b>Get All Companies</b>
+
+actor "<b>User</b>" as user <<(A,#ADD1B2)client>>#White
+Box Online Job Fair Registration System #lightgrey
+participant "server" as server <<(B,#FFFFFF)main>>#Orange
+participant "companies" as rcompanies <<(C,#FFFFFF)routes>>#Gold
+participant "<b>companies" as controllers_companies <<(F,#FFFFFF)controllers>>#LightGreen
+participant "<b>:Company" as models_Company <<(F,#FFFFFF)models>>#LightBlue
+participant "MongoDB" as mongo <<(I,#FFFFFF)data base>>#d9d2e9
+end box
+
+|||
+user->server: req.get('/\ncompanies\n?queryStr')
+Activate user
+Activate server
+server->rcompanies: app.use('\n/companies'\n, companies)
+DeActivate server
+Activate rcompanies
+rcompanies->controllers_companies: getCompanies
+DeActivate rcompanies
+Activate controllers_companies
+controllers_companies->models_Company: find(queryStr)
+Activate models_Company
+models_Company->mongo: CompanySchema
+Activate mongo
+mongo->models_Company: companies
+DeActivate mongo
+models_Company->controllers_companies: companies
+DeActivate models_Company
+controllers_companies->user: response
+DeActivate controllers_companies
+DeActivate user
+|||
+
+
+skinparam sequence {
+BoxBorderColor Black
+BoxFontColor Blue
+BoxFontSize 16
+LifeLineBorderColor Black
+LifeLineBackgroundColor #FFFF99
+ParticipantBorderColor Black
+StereoTypeFontSize 14
+ParticipantFontSize 16
+ParticipantFontColor #0c0c0c
+ActorBorderColor Black
+ActorBackgroundColor White
+ActorFontSize 16
+ActorFontColor Black
+}
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 23:16:42 ICT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
