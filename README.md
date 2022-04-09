@@ -5,7 +5,7 @@
 - Julanan Jiwanantaprawat [@jjulanan](https://github.com/jjulanan/)
 - Wisaroot Lertthaweedech [@wisarootl](https://github.com/wisarootl)
 
-## Brief Decription
+## Brief Description
 
 Demo backend project for online job fair booking. This project is an assignment of Software Development Practice Class (2110503) at department of Computer Engineering, Chulalongkorn University.
 
