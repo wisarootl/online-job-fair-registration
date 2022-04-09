@@ -99,6 +99,8 @@ Demo backend project for online job fair booking
 
 ### Testing as User
 
+#### Auth
+
 1. <a name="test-user-01"></a>Register
    - [Satisfied requirement #1](#functional-requirements)
 
@@ -117,8 +119,6 @@ Demo backend project for online job fair booking
    - [Satisfied requirement #2](#functional-requirements)
 
 ![login](./doc_asset/function_test/registered_user/04_logout.png)
-
-#### Auth
 
 #### Booking
 
