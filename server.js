@@ -2,6 +2,7 @@ const express = require('express') // npm init
 const dotenv = require('dotenv') // npm i express dotenv
 const connectDB = require('./config/db') // npm i mongoose
 dotenv.config({ path: './config/config.env' }) // config.env
+dotenv.config({ path: './config/config2.env' })
 const cookieParser = require('cookie-parser') // npm i cookie-parser
 
 // connect to database

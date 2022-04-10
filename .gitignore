@@ -7,3 +7,4 @@ node_modules/*
 
 # ignore config file
 #config/config.env
+config/config2.env
