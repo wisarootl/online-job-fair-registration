@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema({
     unique: true,
     match: [
       /^[0]{1}\d{1,2}?\-\d{7}/,
-      'Please add a valid telephone number. Expample: "095-1001000" or "02-1001000"'
+      "Please add a valid telephone number. Expample: '095-1001000' or '02-1001000'"
     ]
   },
   email: {
