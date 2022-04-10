@@ -345,6 +345,6 @@ Demo backend project for online job fair registration. This project is an assign
 
 ## Demo: Basic Security Testing
 
-## Conclusion : Significant Change from VacQ project
+## Conclusion : Significant Change from VacQ Project
 
 ## Developer's Contribution
