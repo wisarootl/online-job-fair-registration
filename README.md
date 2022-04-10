@@ -80,6 +80,7 @@ Demo backend project for online job fair registration. This project is an assign
 ### Class Diagram
 
 ![class diagram](./doc_asset/diagrams/class_diagram.svg)
+
 [full size image](./doc_asset/diagrams/class_diagram.svg)
 
 ### Sequence Diagrams
