@@ -50,7 +50,24 @@ Demo backend project for online job fair registration. This project is an assign
 
 ### Non-Functional Requirements
 
+1. Security:
+
+   - The system shall authenticate users using username-password.
+   - The system shall be able to keep user’s transactions confidential.
+
+2. Performance:
+
+   - The system shall response to a request in 3 seconds.
+
+3. Usability:
+   - The system shall be used and test via Postman.
+
 ### Constraints
+
+1. The system shall be a web API.
+2. The frontend part of the application is not required.
+3. The development team shall develop the backend system as REST APIs.
+4. The database system can be either MongoDB Atlas or MySQL.
 
 ## Diagrams
 
