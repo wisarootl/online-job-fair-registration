@@ -7,25 +7,25 @@
 
 ## Brief Description
 
-Demo backend project for online job fair booking. This project is an assignment of Software Development Practice Class (2110503) at department of Computer Engineering, Chulalongkorn University.
+Demo backend project for online job fair registration. This project is an assignment of Software Development Practice Class (2110503) at department of Computer Engineering, Chulalongkorn University.
 
 ## Table of Contents
 
-- Problem Statement
-  - Scope
-  - Functional Requirements
-  - Non-Functional Requirements
-  - Constraints
-- Digrams
-  - ER Diagram
-  - Class Diagram
+- [Problem Statement](#problem-statment)
+  - [Scope](#scope)
+  - [Functional Requirements](#functional-requirements)
+  - [Non-Functional Requirements](#non-functional-requirements)
+  - [Constraints](#constraints)
+- [Digrams](#diagrams)
+  - [ER Diagram](#er-diagram)
+  - [Class Diagram](#class-diagram)
   - [Sequence Diagrams](#sequence-diagrams) : [`Auth`](#auth), [`Company`](#company), [`Booking`](#booking)
 - [Demo: Functional Requirements Verification](#demo-functional-requirements-verification)
   - [Testing as User](#testing-as-user) : [`Auth`](#auth-1), [`Company`](#company-1), [`Booking`](#booking-1)
   - [Testing as Admin](#testing-as-admin) : [`Auth`](#auth-2), [`Company`](#company-2), [`Booking`](#booking-2)
-- Demo: Basic Security Testing
-- Conclusion
-- Developer's contribution
+- [Demo: Basic Security Testing](#demo-basic-security-testing)
+- [Conclusion : Significant Change from VacQ Project](#conclusion--significant-change-from-vacq-project)
+- [Developer's contribution](#developers-contribution)
 
 ## Problem Statment
 
@@ -95,7 +95,67 @@ Demo backend project for online job fair booking. This project is an assignment 
 
 #### Company
 
+- Create New Company
+
+  ![Create New Company](./doc_asset/diagrams/squence_diagrams/company/create_new_company.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/company/create_new_company.svg)
+
+- Delete Single Company
+
+  ![Delete Single Company](./doc_asset/diagrams/squence_diagrams/company/delete_single_company.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/company/delete_single_company.svg)
+
+- Get All Companies
+
+  ![Get All Companies](./doc_asset/diagrams/squence_diagrams/company/get_all_companies.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/company/get_all_companies.svg)
+
+- Get Single Company
+
+  ![Get Single Company](./doc_asset/diagrams/squence_diagrams/company/get_single_company.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/company/get_single_company.svg)
+
+- Update Single Company
+
+  ![Update Single Company](./doc_asset/diagrams/squence_diagrams/company/update_single_company.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/company/update_single_company.svg)
+
 #### Booking
+
+- Add New Booking
+
+  ![Add New Booking](./doc_asset/diagrams/squence_diagrams/booking/add_new_booking.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/booking/add_new_booking.svg)
+
+- Delete Single Booking
+
+  ![Delete Single Booking](./doc_asset/diagrams/squence_diagrams/booking/delete_single_bookings.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/booking/delete_single_bookings.svg)
+
+- Get All Bookings
+
+  ![Get All Bookings](./doc_asset/diagrams/squence_diagrams/booking/get_all_bookings.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/booking/get_all_bookings.svg)
+
+- Get Single Booking
+
+  ![Get Single Booking](./doc_asset/diagrams/squence_diagrams/booking/get_single_booking.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/booking/get_single_booking.svg)
+
+- Update Single Booking
+
+  ![Update Single Booking](./doc_asset/diagrams/squence_diagrams/booking/update_single_booking.svg)
+
+  [full size image](./doc_asset/diagrams/squence_diagrams/booking/update_single_booking.svg)
 
 ## Demo: Functional Requirements Verification
 
@@ -104,7 +164,7 @@ Demo backend project for online job fair booking. This project is an assignment 
 #### Auth
 
 1. <a name="test-user-01"></a>Register
-   - [Satisfied requirement #1](#functional-requirements)
+   - [satisfied requirement #1](#functional-requirements)
 
 ![register](./doc_asset/function_test/registered_user/01_register.png)
 
@@ -121,7 +181,7 @@ Demo backend project for online job fair booking. This project is an assignment 
 ![register](./doc_asset/function_test/registered_user/04_register.png)
 
 5. <a name="test-user-05"></a>Login
-   - [Satisfied requirement #2](#functional-requirements)
+   - [satisfied requirement #2](#functional-requirements)
 
 ![login](./doc_asset/function_test/registered_user/05_login.png)
 
@@ -130,7 +190,7 @@ Demo backend project for online job fair booking. This project is an assignment 
 ![getme](./doc_asset/function_test/registered_user/06_get_me.png)
 
 7. <a name="test-user-07"></a>Logout
-   - [Satisfied requirement #2](#functional-requirements)
+   - [satisfied requirement #2](#functional-requirements)
 
 ![logout](./doc_asset/function_test/registered_user/07_logout.png)
 
@@ -145,7 +205,7 @@ Demo backend project for online job fair booking. This project is an assignment 
 ![login](./doc_asset/function_test/registered_user/09_login.png)
 
 10. <a name="test-user-10"></a>Gat All Companies
-    - [Satisfied requirement #3](#functional-requirements)
+    - [satisfied requirement #3](#functional-requirements)
 
 ![get_all_company](./doc_asset/function_test/registered_user/10_get_all_companies.png)
 
@@ -172,28 +232,28 @@ Demo backend project for online job fair booking. This project is an assignment 
 #### Booking
 
 16. <a name="test-user-16"></a>Add New Booking
-    - [Satisfied requirement #3](#functional-requirements)
+    - [satisfied requirement #3](#functional-requirements)
 
 ![add_new_company](./doc_asset/function_test/registered_user/16_add_new_booking.png)
 
 17. <a name="test-user-17"></a>Add New Booking : with date out of range 10 - 13 May 2022
-    - [Satisfied requirement #3](#functional-requirements)
+    - [satisfied requirement #3](#functional-requirements)
 
 ![add_new_company](./doc_asset/function_test/registered_user/17_add_new_booking.png)
 
 18. <a name="test-user-18"></a>Add New Booking : with >= 3 existed bookings of the user
-    - [Satisfied requirement #3](#functional-requirements)
+    - [satisfied requirement #3](#functional-requirements)
 
 ![add_new_company](./doc_asset/function_test/registered_user/18_add_new_booking.png)
 
 19. <a name="test-user-19"></a>Get All Bookings
     - get only the bookings of the user themself
-    - [Satisfied requirement #4](#functional-requirements)
+    - [satisfied requirement #4](#functional-requirements)
 
 ![get_all_bookings](./doc_asset/function_test/registered_user/19_get_all_bookings.png)
 
 20. <a name="test-user-20"></a>Delete Single Booking : of the user themself
-    - [Satisfied requirement #6](#functional-requirements)
+    - [satisfied requirement #6](#functional-requirements)
 
 ![delete_single_booking](./doc_asset/function_test/registered_user/20_delete_booking.png)
 
@@ -202,7 +262,7 @@ Demo backend project for online job fair booking. This project is an assignment 
 ![delete_single_booking](./doc_asset/function_test/registered_user/21_delete_booking.png)
 
 22. <a name="test-user-22"></a>Get Single Booking : of the user themself
-    - [Satisfied requirement #4](#functional-requirements)
+    - [satisfied requirement #4](#functional-requirements)
 
 ![get_single_booking](./doc_asset/function_test/registered_user/22_get_single_booking.png)
 
@@ -211,7 +271,7 @@ Demo backend project for online job fair booking. This project is an assignment 
 ![get_single_booking](./doc_asset/function_test/registered_user/23_get_single_booking.png)
 
 24. <a name="test-user-24"></a>Update Single Booking : of the user themself
-    - [Satisfied requirement #5](#functional-requirements)
+    - [satisfied requirement #5](#functional-requirements)
 
 ![update_single_booking](./doc_asset/function_test/registered_user/24_update_booking.png)
 
@@ -230,17 +290,17 @@ Demo backend project for online job fair booking. This project is an assignment 
 #### Company
 
 2. <a name="test-admin-02"></a>Create New Company
-   - [Satisfied requirement #10](#functional-requirements)
+   - [satisfied requirement #10](#functional-requirements)
 
 ![create_new_booking](./doc_asset/function_test/admin/02_create_new_company.png)
 
 3. <a name="test-admin-03"></a>Update Company
-   - [Satisfied requirement #11](#functional-requirements)
+   - [satisfied requirement #11](#functional-requirements)
 
 ![update_booking](./doc_asset/function_test/admin/03_update_company.png)
 
 4. <a name="test-admin-04"></a>Delete Company
-   - [Satisfied requirement #12](#functional-requirements)
+   - [satisfied requirement #12](#functional-requirements)
 
 ![delete_booking](./doc_asset/function_test/admin/03_update_company.png)
 
@@ -252,17 +312,17 @@ Demo backend project for online job fair booking. This project is an assignment 
 ![get_all_bookings](./doc_asset/function_test/admin/05_get_all_bookings.png)
 
 6. <a name="test-admin-06"></a>Get Single Booking : of another user
-   - [Satisfied requirement #7](#functional-requirements)
+   - [satisfied requirement #7](#functional-requirements)
 
 ![get_single_booking](./doc_asset/function_test/admin/06_get_single_booking.png)
 
 7. <a name="test-admin-07"></a>Update Single Booking : of another user
-   - [Satisfied requirement #8](#functional-requirements)
+   - [satisfied requirement #8](#functional-requirements)
 
 ![update_single_booking](./doc_asset/function_test/admin/07_update_booking.png)
 
 8. <a name="test-admin-08"></a>Delete Single Booking : of another user
-   - [Satisfied requirement #9](#functional-requirements)
+   - [satisfied requirement #9](#functional-requirements)
 
 ![delete_single_booking](./doc_asset/function_test/admin/08_delete_booking.png)
 
@@ -271,21 +331,3 @@ Demo backend project for online job fair booking. This project is an assignment 
 ## Conclusion : Significant Change from VacQ project
 
 ## Developer's Contribution
-
-<!-- ## Function testing with Postman
-
-<a name="paragraph1"></a>
-
-### Testing as user
-
-#### Auth
-
-![user register test](./doc_asset/function_test/user/01_register.png)
-
-#### Company
-
-#### Booking
-
-### Testing as admin
-
-#### Auth -->
