@@ -9,10 +9,11 @@
 
 Demo backend project for online job fair registration. This project is an assignment of Software Development Practice Class (2110503) at department of Computer Engineering, Chulalongkorn University.
 
+**Skills** : `Backend`, `Node.js`, `Database`, `API`, `MongoDB`, `SQL`, `Security`
+
 ## Table of Contents
 
 - [Problem Statement](#problem-statment)
-  - [Scope](#scope)
   - [Functional Requirements](#functional-requirements)
   - [Non-Functional Requirements](#non-functional-requirements)
   - [Constraints](#constraints)
@@ -23,13 +24,10 @@ Demo backend project for online job fair registration. This project is an assign
 - [Demo: Functional Requirements Verification](#demo-functional-requirements-verification)
   - [Testing as User](#testing-as-user) : [`Auth`](#auth-1), [`Company`](#company-1), [`Booking`](#booking-1)
   - [Testing as Admin](#testing-as-admin) : [`Auth`](#auth-2), [`Company`](#company-2), [`Booking`](#booking-2)
-- [Demo: Basic Security Testing](#demo-basic-security-testing)
-- [Conclusion : Significant Change from VacQ Project](#conclusion--significant-change-from-vacq-project)
+- [Demo: Security Testing](#demo-security-testing)
 - [Developer's contribution](#developers-contribution)
 
 ## Problem Statment
-
-### Scope
 
 ### Functional Requirements
 
@@ -344,8 +342,16 @@ Demo backend project for online job fair registration. This project is an assign
 
 ![delete_single_booking](./doc_asset/function_test/admin/08_delete_booking.png)
 
-## Demo: Basic Security Testing
+## Demo: Security Testing
 
-## Conclusion : Significant Change from VacQ Project
+### Prevent NoSQL injection & Sanitize Data
+
+![sanitize_data](./doc_asset/function_test/security/01_sanitize_data.png)
+
+### XSS Protection
+
+![xss_protection](./doc_asset/function_test/security/02_xss_protection.png)
 
 ## Developer's Contribution
+
+![contribution](./doc_asset/contribution.svg)
