@@ -1,0 +1,108 @@
+
+@startuml
+
+hide footbox
+skinparam sequenceArrowThickness 1.5
+skinparam fontsize 50
+autonumber 1 "<b>[###]"
+skinparam component {
+skinparam defaultFontSize 16
+'FontSize 13
+'BackgroundColor<<Apache>> Red
+'BorderColor<<Apache>> #FF6655
+'FontName Courier
+'BorderColor black
+'BackgroundColor gold
+'ArrowFontName Impact
+ArrowFontSize 15
+'ArrowColor #FF6655
+'ArrowFontColor #777777
+}
+'skinparam backgroundColor #EEEBDC
+Mainframe <b>Get Me</b>
+
+actor "<b>User" as user <<(A,#ADD1B2)client>>#White
+Box Online Job Fair Registration System #lightgrey
+participant "server" as server <<(B,#FFFFFF)main>>#Orange
+participant "auth" as rauth <<(C,#FFFFFF)routes>>#Gold
+'participant "bookings" as rbookings <<(C,#FFFFFF)routes>>#Gold
+'participant "companies" as rcompanies <<(C,#FFFFFF)routes>>#Gold
+participant "auth" as middleware_auth <<(E,#FFFFFF)middleware>>#Pink
+participant "<b>auth" as controllers_auth <<(D,#FFFFFF)controllers>>#LightGreen
+'participant "<b>bookings" as controllers_bookings <<(D,#FFFFFF)controllers>>#LightGreen
+'participant "<b>companies" as controllers_companies <<(F,#FFFFFF)controllers>>#LightGreen
+'participant "<b>:Company" as models_Company <<(F,#FFFFFF)models>>#LightBlue
+'participant "<b>:Booking" as models_Booking <<(G,#FFFFFF)models>>#LightBlue
+participant "<b>:User" as models_User <<(H,#FFFFFF)models>>#LightBlue
+participant "MongoDB" as mongo <<(I,#FFFFFF)data base>>#d9d2e9
+end box
+
+|||
+user->server: req.get('/auth/me')
+Activate user
+Activate server
+'Route'
+server->rauth: app.use('\n/auth', auth)
+DeActivate server
+Activate rauth
+'Middleware auth
+rauth->middleware_auth: protect
+DeActivate rauth
+Activate middleware_auth
+middleware_auth->middleware_auth: jwt.verify(token)
+Alt#Gold #Beige no token or invalid token
+middleware_auth-->user: response fail
+Else #LightBlue Authorized
+middleware_auth->models_User: findById\n(decoded.id)
+Activate models_User
+models_User->mongo: UserSchema
+Activate mongo
+mongo-->models_User: user
+DeActivate mongo
+models_User-->middleware_auth: user
+DeActivate models_User
+middleware_auth->controllers_auth: getMe
+DeActivate middleware_auth
+Activate controllers_auth
+controllers_auth->models_User: findById\n(req.user.id)
+Activate models_User
+models_User->mongo: UserSchema
+Activate mongo
+mongo-->models_User: user
+DeActivate mongo
+models_User-->controllers_auth: user
+DeActivate models_User
+controllers_auth-->user: response success
+DeActivate controllers_auth
+
+End Alt
+DeActivate user
+|||
+
+
+skinparam sequence {
+'Box ==============================
+BoxBorderColor Black
+BoxFontColor Blue
+BoxFontSize 16
+'LifeLine + Arrow ==============================
+'ArrowColor DeepSkyBlue
+LifeLineBorderColor Black
+LifeLineBackgroundColor #FFFF99
+'Participant ==============================
+ParticipantBorderColor Black
+'ParticipantBackgroundColor DodgerBlue
+StereoTypeFontSize 14
+ParticipantFontSize 16
+ParticipantFontColor #0c0c0c
+'ParticipantFontName Impact
+'Actor ==============================
+ActorBorderColor Black
+ActorBackgroundColor White
+ActorFontSize 16
+ActorFontColor Black
+'ActorFontName Aapex
+' ===================================
+}
+
+@enduml
