@@ -2,8 +2,8 @@
 
 ## Developers
 
-- Julanan Jiwanantaprawat [@jjulanan](https://github.com/jjulanan/)
 - Wisaroot Lertthaweedech [@wisarootl](https://github.com/wisarootl)
+- Julanan Jiwanantaprawat [@jjulanan](https://github.com/jjulanan/)
 
 ## Brief Description
 
